@@ -1,0 +1,21 @@
+ColumnLimit: 80
+IndentWidth: 4
+
+AlignArrayOfStructures: Left
+AlignEscapedNewlines: true
+AlignOperands: true
+AllowShortFunctionsOnASingleLine: false
+AlignTrailingComments: true
+BreakBeforeBraces: Allman
+IndentCaseLabels: false
+
+AlignConsecutiveAssignments:
+    Enabled: true
+    AcrossComments: true
+    AcrossEmptyLines: true
+    AlignCompound: true
+
+AlignConsecutiveMacros:
+    Enabled: true
+    AcrossComments: true
+    AcrossEmptyLines: true

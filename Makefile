@@ -33,4 +33,8 @@ install: dwmblocks
 uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwmblocks
 
-.PHONY: all options clean install uninstall
+scripts:
+	mkdir -p ~/.local/share/scripts/
+	cp -frv ./scripts/* ~/.local/share/scripts
+
+.PHONY: all options clean install uninstall scripts
