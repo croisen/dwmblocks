@@ -13,7 +13,7 @@ typedef struct
 
 // Macro             Path/script         Interface?   Other Args
 #define BAT  "~/.local/share/scripts/bat.sh BAT1"
-#define NET  "~/.local/share/scripts/net.sh wlan0       ↑    ↓"
+#define NET  "~/.local/share/scripts/net.sh wlan0       ↓    ↑"
 
 #define CPU  "~/.local/share/scripts/cpu.sh"
 #define DATE "~/.local/share/scripts/date.sh"

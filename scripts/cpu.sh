@@ -12,7 +12,7 @@ prev_full=0
 prev_idle=0
 
 if [[ -e /tmp/dwmblocks_croi_script_cpu ]]; then
-    PREV_CPU=$(cat /tmp/dwmblocks_script_cpu)
+    PREV_CPU=$(cat /tmp/dwmblocks_croi_script_cpu)
     prev_full=$(echo "$PREV_CPU" | awk '{ printf $2+$3+$4+$5+$6+$7+$8+$9 }')
     prev_idle=$(echo "$PREV_CPU" | awk '{ printf $5+$6 }')
 fi

@@ -32,4 +32,4 @@ new_tx=$((tx - prev_tx))
 
 
 echo "$tx" > /tmp/dwmblocks_croi_script_net_tx
-printf "%6.2f%2s" $(convert_bytes_eh $new_tx)
+printf "%6.2f%3s" $(convert_bytes_eh $new_tx)

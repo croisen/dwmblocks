@@ -32,4 +32,4 @@ new_rx=$((rx - prev_rx))
 
 
 echo "$rx" > /tmp/dwmblocks_croi_script_net_rx
-printf "%6.2f%2s" $(convert_bytes_eh $new_rx)
+printf "%6.2f%3s" $(convert_bytes_eh $new_rx)

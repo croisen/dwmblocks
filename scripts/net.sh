@@ -38,5 +38,5 @@ new_tx=$((tx - prev_tx))
 # Received is displayed first then transmitted
 echo "$rx" > /tmp/dwmblocks_croi_script_net_rx_tx
 echo "$tx" >> /tmp/dwmblocks_croi_script_net_rx_tx
-printf "$2: %6.2f%2s / $3: %6.2f%2s"\
+printf "$2: %6.2f%3s / $3: %6.2f%3s"\
     $(convert_bytes_eh $new_rx) $(convert_bytes_eh $new_tx)
