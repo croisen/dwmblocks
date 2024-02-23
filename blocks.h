@@ -12,14 +12,14 @@ typedef struct
 } Block;
 
 // Macro             Path/script         Interface?   Other Args
-#define BAT  "~/.local/share/scripts/bat.sh BAT1"
-#define NET  "~/.local/share/scripts/net.sh wlan0       ↓    ↑"
+#define BAT  "~/.config/dwmblocks/bat.sh  BAT1"
+#define NET  "~/.config/dwmblocks/net.sh  wlp3s0        ↓    ↑"
 
-#define CPU  "~/.local/share/scripts/cpu.sh"
-#define DATE "~/.local/share/scripts/date.sh"
-#define MEM  "~/.local/share/scripts/mem.sh"
-#define SWAP "~/.local/share/scripts/swap.sh"
-#define VOL  "~/.local/share/scripts/vol.sh"
+#define CPU  "~/.config/dwmblocks/cpu.sh"
+#define DATE "~/.config/dwmblocks/date.sh"
+#define MEM  "~/.config/dwmblocks/mem.sh"
+#define SWAP "~/.config/dwmblocks/swap.sh"
+#define VOL  "~/.config/dwmblocks/vol.sh"
 
 const Block blocks[] = {
     /*Icon*/  /*Command*/  /*Update Interval*/  /*Signal */
