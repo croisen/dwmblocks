@@ -34,7 +34,7 @@ uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/dwmblocks
 
 scripts:
-	mkdir -p ~/.local/share/scripts/
-	cp -frv ./scripts/* ~/.local/share/scripts
+	mkdir -p ~/.config/dwmblocks
+	cp -frv ./scripts/* ~/.config/dwmblocks
 
 .PHONY: all options clean install uninstall scripts
